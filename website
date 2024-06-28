@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RS MARKETING - Marketing agency specializing in advertising and acquiring new leads for the automotive niche. Discover how we can help you scale your business.">
+    <meta name="keywords" content="RS Marketing, marketing, advertising, lead acquisition, automotive industry, business scaling">
+    <title>RS MARKETING</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background-color: #222;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            padding: 40px 0;
+        }
+        .home {
+            background: linear-gradient(135deg, #ff0000, #0000ff);
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .home h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .about, .reviews, .contact, .call {
+            background-color: #111;
+        }
+        .about h2, .reviews h2, .contact h2, .call h2 {
+            color: #ff0000;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #ff4444;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="file-j0qrKPWdtbq3YzaFBmZyld9r.png" alt="RS MARKETING Logo">
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="#call">Book a Call</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="home section">
+            <h1>Welcome to RS MARKETING</h1>
+            <p>Specialized in bringing new clients to the automotive industry.</p>
+            <a href="#call" class="button">Book a Call</a>
+        </section>
+        <section id="about" class="about section">
+            <h2>About Us</h2>
+            <p>RS MARKETING is a marketing agency dedicated to helping automotive businesses grow and reach new customers through targeted advertising strategies.</p>
+        </section>
+        <section id="reviews" class="reviews section">
+            <h2>Reviews</h2>
+            <p>"RS MARKETING has transformed our online presence and brought us more clients than we ever imagined." - Satisfied Client</p>
+            <p>"Thanks to RS MARKETING, our business has grown exponentially. Highly recommended!" - Another Satisfied Client</p>
+        </section>
+        <section id="contact" class="contact section">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:info@rsmarketing.com" class="button">info@rsmarketing.com</a></p>
+            <p>Phone: <a href="tel:+123456789" class="button">+123 456 789</a></p>
+        </section>
+        <section id="call" class="call section">
+            <h2>Book a Call</h2>
+            <p>Discover how we can help you scale your business. Book a call with us today!</p>
+            <a href="https://calendly.com/rsmarketing/bookacall" class="button">Book Now</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 RS MARKETING. All rights reserved.</p>
+    </footer>
+</body>
+</html>
